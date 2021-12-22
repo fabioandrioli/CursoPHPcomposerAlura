@@ -30,3 +30,11 @@ Primeiro commit
   - podemos tbm o comando "files":["functions.php"]
     - Este comando diz que este arquivo sempre vai ser incluindo quando
     chamarmos uma função dele.
+
+
+# Script no arquivo composer
+    - Para facilitar e evitar que ficamos escrevendo comando 
+    - podemos usar o comando scripts no arquivo composer.json
+    - fica fora do autoload
+    - basta colocar "scripts": "php unit"
+    - se ele não achar no sistema operacional do computador, ele automaticamente procura dentro da pasta vendor\bin
