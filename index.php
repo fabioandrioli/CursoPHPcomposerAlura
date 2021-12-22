@@ -1,7 +1,9 @@
 <?php
 
 require 'vendor/autoload.php';
-require 'src/Buscador.php';
+
+// Teste::teste();
+// exit();
 
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
