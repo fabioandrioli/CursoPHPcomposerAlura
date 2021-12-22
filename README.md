@@ -39,3 +39,5 @@ Primeiro commit
     - basta colocar "scripts": "php unit"
     - se ele não achar no sistema operacional do computador, ele automaticamente procura dentro da pasta vendor\bin
     - Obs tem que ser exatamente a linha de comando do código, se na linha de comando são adicionados pastas, tem que ser copiado igual para os scripts
+    - Dentro do script podemos criar um "check":["@phpunit"] e dentro do array podemos chamar vários scripts defindos,
+    -quando damos o comando composer check ele carrega os scripts definidos
