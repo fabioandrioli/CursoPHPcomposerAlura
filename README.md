@@ -41,3 +41,9 @@ Primeiro commit
     - Obs tem que ser exatamente a linha de comando do código, se na linha de comando são adicionados pastas, tem que ser copiado igual para os scripts
     - Dentro do script podemos criar um "check":["@phpunit"] e dentro do array podemos chamar vários scripts defindos,
     -quando damos o comando composer check ele carrega os scripts definidos
+
+# Para entender sobre versão pesquise sobre Semantic version
+ - V1.0.0
+ - O primeiro numero é a versão principal que indica quebra de compatibilidade
+ - o segundo é quando é adicionado uma versionalidade
+ - se for correação de bug é no ultimo numero.
