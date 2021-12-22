@@ -38,3 +38,4 @@ Primeiro commit
     - fica fora do autoload
     - basta colocar "scripts": "php unit"
     - se ele não achar no sistema operacional do computador, ele automaticamente procura dentro da pasta vendor\bin
+    - Obs tem que ser exatamente a linha de comando do código, se na linha de comando são adicionados pastas, tem que ser copiado igual para os scripts
